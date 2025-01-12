@@ -1,5 +1,9 @@
-{
-  "dependencies": {
-    "docusaurus": "^1.14.7"
-  }
-}
+const siteConfig = {title: 'Meu Site', // Título do site
+tagline: 'Descrição do meu site',
+url: 'https://example.com', // URL do seu site
+baseUrl: '/', // Caminho base do site
+projectName: 'meu-projeto',
+organizationName: 'minha-organizacao',
+};
+
+module.exports = siteConfig;
